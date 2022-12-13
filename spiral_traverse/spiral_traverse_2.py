@@ -1,5 +1,5 @@
 def spiralTraverse(array):
-<<<<<<< HEAD
+
     array_to_return = []
 
     while array:
@@ -7,7 +7,7 @@ def spiralTraverse(array):
         array = list(zip(*array))[::-1]
 
     return array_to_return
-=======
+
     output = []
     start_row = 0
     start_col = 0
@@ -33,7 +33,7 @@ def spiralTraverse(array):
         start_col += 1
 
     return output
->>>>>>> 902194d (11/10/22)
+
 
 
 array = [
